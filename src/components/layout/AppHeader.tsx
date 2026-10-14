@@ -53,7 +53,7 @@ export const AppHeader: React.FC = () => {
         <div className="flex items-center space-x-4">
           <div className="hidden md:flex flex-col text-right text-xs">
             <span className="text-slate-800 font-semibold" data-testid="header-username">
-              {session?.username || 'Harikrishna S'}
+              {session?.username || 'User'}
             </span>
             <span className="text-slate-500 text-[11px]" data-testid="header-timestamp">
               {session?.loginTimestamp || '14-Oct-2026 14:00:00'}

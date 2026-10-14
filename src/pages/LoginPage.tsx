@@ -9,7 +9,7 @@ export const LoginPage: React.FC = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
 
-  const [username, setUsername] = useState('Harikrishna S');
+  const [username, setUsername] = useState('User');
   const [password, setPassword] = useState('Clinevo@2026');
   const [enterprise, setEnterprise] = useState('Clinevo');
   const [showPassword, setShowPassword] = useState(false);
